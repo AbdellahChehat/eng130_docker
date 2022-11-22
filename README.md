@@ -5,6 +5,8 @@
 
 - Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications.
 
+![Screenshot 2022-11-22 at 09 35 11](https://user-images.githubusercontent.com/115224560/203278846-ddffbeef-7699-41a1-8812-3e6302e44fd5.png)
+
 ### Benefits: 
 
 - Caching a cluster of containers
