@@ -1,4 +1,4 @@
-### Multi-Stage Build
+### Multi-Stage Build
 
 - Using the development image can be useful for testing and additional configuration, but the image size may be relatively large. Once everything is working with the development image, multi-stage builds can be used to create a lightweight image, without having to write a new Dockerfile.
 - The way this is done is by adding another stage into our Dockerfile with a more lightweight image (FROM node:alpine) 
@@ -135,7 +135,10 @@ services:
 3. Run `docker compose up`
 
 **Result should look like this when ready ...**
+![Screenshot 2022-11-22 at 16 50 00](https://user-images.githubusercontent.com/115224560/203375879-1480507d-8d24-4df5-87ac-51275fc0e339.png)
+
 
 **Folder format should look like this ....**
 
+<img width="442" alt="Screenshot 2022-11-22 at 16 59 22" src="https://user-images.githubusercontent.com/115224560/203375917-e1073ede-694d-4b26-b664-c9dfd4ecef32.png">
 
