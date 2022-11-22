@@ -71,3 +71,41 @@ Benefits of Containerisation:
 - `docker stop [process id]` - stops the process running with all the
 - `docker start [process id]` - starts the process where it left off
 - `docker exec -it [process id] bash` - be able to execute shell commands in the process provided
+
+---------------
+
+### Scripting with Docker
+
+1. First step is to create a Dockerfile (Create file inside the following path /Users/faduma/eng130_docker **however can be anywhere**)
+2. `nano Dockerfile`
+3. inside file copy the following  
+   ```
+
+    # docker run nginx
+
+    FROM nginx
+
+    # who is creating this
+
+    LABEL MAINTAINER=eng130-abdellah
+
+    # created index.html profile - copt to container
+    COPY index.html /usr/share/nginx/html
+
+    # default location /usr/share/nginx/html
+
+    # docker run -d -p 80:80 name
+
+    # port number
+    EXPOSE 80
+
+    # launch the server
+
+    CMD ["nginx","-g","daemon off;"]
+
+   ```
+
+4. Build by running this command `docker build -t abdullah12321/eng130-abdellah . `
+5. check if you have port 80 used already
+6. docker run -d -p 80:80 abdullah12321/eng130-abdellah
+7. Check docker images 
