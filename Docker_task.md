@@ -2,7 +2,7 @@ Copying Files into a container
 - `docker cp <file to copy> <container_id>:path/to/file`
 ------------
 - Create `index.html`
-- Then i pulled the latest docker image docker pull nginx
+- Then pulled the latest docker image docker pull nginx
 - started the image docker run -dp 80:80 nginx
 - copied over my index.html that was saved locally into my container - html folder docker cp index.html 2359977b50d1:/usr/share/nginx/html/
 - ran my site and when i saw everything working i commited to docker hub docker commit <container id> abdullah12321/eng130-profile:latest
