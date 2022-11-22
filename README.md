@@ -53,19 +53,19 @@ Benefits of Containerisation:
 
 ### Docker shell commands
 
-`docker --version` - should get the version 20.11
-`docker` - gets the cheat sheet for docker
-`docker pull hello-world` - downloads the hello-world container
-`docker images` - displays the images you have
-`docker run hello-world` - runs the image we downloaded before
-`docker ps` - draws the processes that are running at the moment
-`docker ps -a`- draws ALL the processes that are running at the moment
-`docker run -p 2368:2368 ghost` - will pull and then run it in one go and select the correct port
-`docker rm [docker id] -f` - to force delete docker that is running
-`docker run -p 80:80 nginx` - to launch nginx
-`docker run -d -p 80:80 nginx` - d stands for detatch mode so we will get the terminal back when run
-`docker logs [container id]` - shows the logs of the running process
-`docker run -d -p 4000:4000` docs/docker.github.io - downaloads container and can run in the background. run localhost:4000
-`docker stop [process id]` - stops the process running with all the
-`docker start [process id]` - starts the process where it left off
-`docker exec -it [process id] bash` - be able to execute shell commands in the process provided
+- `docker --version` - should get the version 20.11
+- `docker` - gets the cheat sheet for docker
+- `docker pull hello-world` - downloads the hello-world container
+- `docker images` - displays the images you have
+- `docker run hello-world` - runs the image we downloaded before
+- `docker ps` - draws the processes that are running at the moment
+- `docker ps -a`- draws ALL the processes that are running at the moment
+- `docker run -p 2368:2368 ghost` - will pull and then run it in one go and select the correct port
+- `docker rm [docker id] -f` - to force delete docker that is running
+- `docker run -p 80:80 nginx` - to launch nginx
+- `docker run -d -p 80:80 nginx` - d stands for detatch mode so we will get the terminal back when run
+- `docker logs [container id]` - shows the logs of the running process
+- `docker run -d -p 4000:4000` docs/docker.github.io - downaloads container and can run in the background. run localhost:4000
+- `docker stop [process id]` - stops the process running with all the
+- `docker start [process id]` - starts the process where it left off
+- `docker exec -it [process id] bash` - be able to execute shell commands in the process provided
