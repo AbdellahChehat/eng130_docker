@@ -26,6 +26,12 @@
 
 ![Screenshot 2022-11-21 at 12 24 58](https://user-images.githubusercontent.com/115224560/203070423-f2fbb0a0-cd96-40fc-9543-d5a7fcfd6e7b.png)
 
+### Advantage of Micro-service architecture
+
+- Very very small application that focusing on a single thing
+- Independent application
+- Individual team can work on it
+- Easy to scalable
 # Containerisation with Docker
 
 Containerisation is defined as a form of operating system virtualization, through which applications are run in isolated user spaces called containers, all using the same shared operating system (OS).
