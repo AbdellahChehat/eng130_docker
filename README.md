@@ -44,6 +44,14 @@ Benefits of Containerisation:
 - Ease of Management: Container orchestration platforms can ease management tasks such as scaling containerized apps, rolling out new versions of apps, and providing monitoring, logging and debugging.
 
 
+### Docker vs Container
+
+Docker containers and virtual machines are both ways of deploying applications inside environments that are isolated from the underlying hardware. The chief difference is the level of isolation.
+
+- Docker is lightweight and user-friendly
+- Docker shares the resources of OS as opposed to using the OS completely
+- Docker engine connects the container with the OS and only uses the resources required
+- VM works with Hypervisor to connect guest OS/VM with Host OS
 
 # ------------- Setting up Docker
 
